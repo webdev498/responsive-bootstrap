@@ -1,0 +1,159 @@
+body {
+	background-size: 100% 100%;
+}
+@media (max-width: 1000px){
+	body {
+		background-size: 130% 100%;
+	}
+	
+}
+@media (max-width: 600px){
+	body {
+		background-size: 190% 100%;
+	}
+}
+@media (min-width : 980px) and (max-width: 981px) and (orientation : portrait) {
+	body,html {
+		height: 100%;
+	}
+}
+@media (max-width: 767px){
+	
+	#navbar {
+		margin: 0 auto;
+	}
+	.process {
+		display: inline-flex;
+		margin-left: 47%;
+	}
+	#circle1 {
+		margin-left: 24px;
+	}
+	#circle2 {
+		margin-top: 27px;
+		margin-left: 24px;
+	}
+	#aboveq {
+		margin-top: 40px;
+	}
+}
+@media (max-width: 554px){
+	.process {
+		display: inline-flex;
+		margin-left: 42%;
+	}
+}
+@media (max-width: 425px){
+	.process {
+		display: inline-flex;
+		margin-left: 38%;
+	}
+}
+
+p {
+	margin: 90px 0px 0px 0px !important;
+}
+.mainarea {
+/*	width: 100%;
+	bottom: 0;
+	margin-left: 0;*/
+	margin-top: 50%;
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.mainarea {
+		margin-top: 20%;
+	}
+}
+.butarea {
+	width: 100%;
+}
+
+@media (min-width: 621px) and (max-width: 1024px) {
+	.mainarea {
+		width: 70%;
+		margin: 70px auto 0;
+	}
+	.butarea {
+		width: 100%;
+	}
+	.fake-link {
+		left: 36%;
+	}
+	.fake-link1 {
+		margin-left: 48%;
+	}
+}
+
+@media (max-width: 620px){
+	.mainarea {
+		width: 90%;
+		margin: 70px auto 0;
+	}
+	.butarea {
+		width: 100%;
+	}
+	.fake-link {
+		left: 28%;
+	}
+	.fake-link1 {
+		margin-left: 48%;
+	}
+}
+@media (max-width: 468px){
+	.fake-link {
+		left: 26%;
+	}
+	.fake-link1 {
+		margin-left: 47%;
+	}
+}
+@media (max-width: 398px){
+	.fake-link {
+		left: 20%;
+	}
+}
+
+footer {
+	margin-top: 60px;
+}
+footer .row {
+	text-align: center;
+}
+@media (max-width: 470px){
+	footer {
+		margin-top: 50px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-4 {
+		width: 29.333333%;
+		padding: 0 12px;
+	}
+}
+
+.textrule1, .textrule2, .textrule3 {
+	background-color: rgba(255, 255, 255, 0.1);
+	position: relative;
+	width: 100%;
+	margin-left: 0;
+	padding: 1px 10px;
+	min-height: 190px;
+}
+
+@media (max-width: 1200px) {
+	.textrule1, .textrule2, .textrule3 {
+		padding: 1px 0 20px 25px;
+		min-height: 0;
+		margin-bottom: 10px;
+		width: 95%;
+	}
+}
+
+#email {
+	color: black;
+}
+
+#screenname{
+	color: black;
+}
